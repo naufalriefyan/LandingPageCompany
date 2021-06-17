@@ -20,11 +20,32 @@ html {
     text-align: center;
     font-weight: 600;
   }
-
-  #carouselSlide .carousel-item img {
-    width: 150px;
-    height: 224px;
+  .carousel-mobile .carousel-item .header {
+    margin-top: -120px;
+    margin-left: 15px;
+    font-size: 12px;
+    font-family: "Inter", sans-serif;
+    color: #beb0b0;
   }
+  .carousel-mobile .carousel-item .title {
+    width: 150px;
+    font-size: 18px;
+    font-family: "Noto", serif;
+    font-style: italic;
+    font-weight: 600;
+    color: #3a3939;
+    margin-left: 15px;
+  }
+  .carousel-mobile .carousel-item .subheader {
+    width: 250px;
+    font-size: 12px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    color: #beb0b0;
+    margin-left: 15px;
+    padding-bottom: 26px;
+  }
+
   /* .navbar {
     width: 100%;
   }
